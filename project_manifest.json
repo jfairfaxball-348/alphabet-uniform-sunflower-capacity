@@ -4,13 +4,13 @@
   "project_id": "P001C",
   "repository": "jfairfaxball-348/alphabet-uniform-sunflower-capacity",
   "repository_id": 1419073216,
-  "last_completed_session": "P001C-S000_ADMINISTRATIVE_ONLY",
-  "next_session": "P001C-S001",
+  "last_completed_session": "P001C-S001_NO_BOUND_IMPROVEMENT",
+  "next_session": "P001C-S002",
   "next_executed": false,
   "required_parent_closeout": "SUN-PARENT-S005",
   "paper_candidate": "uniform_strict_alphabet_exponent_reduction",
-  "published_baseline": "Naslund-Sawin 2017 Thm 5",
+  "published_baseline": "Naslund-Sawin 2017 published Thm 2/arXiv v1 Thm 5",
   "source_transfer": "ASU 2013 Thm 2.6 r=3 only",
-  "novelty": "UNASSESSED",
+  "novelty": "UNCLEARED",
   "new_theorems": 0
 }

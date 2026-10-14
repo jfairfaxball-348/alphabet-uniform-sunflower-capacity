@@ -6,9 +6,9 @@
   "parent": "jfairfaxball-348/sunflower-structures-programme",
   "permanent_headline": "Erdős–Rado Sunflower Conjecture",
   "admin_session_completed": "P001C-S000",
-  "last_mathematics_session": null,
-  "stage": "BOOTSTRAPPED_NOT_RESEARCH_EXECUTED_PENDING_PARENT_S005_VERIFICATION",
-  "next_session": "P001C-S001",
+  "last_mathematics_session": "P001C-S001",
+  "stage": "S001_COMPLETED_NO_BOUND_IMPROVEMENT_S002_BINARY_KILL_GATE",
+  "next_session": "P001C-S002",
   "next_executed": false,
   "owner_must_invoke_separate_project": true,
   "known_exponent": "2/3",
@@ -19,5 +19,13 @@
   "formal_status": "NOT_STARTED",
   "publication_status": "NOT_STARTED",
   "new_theorems": 0,
+  "elementary_benchmarks": [
+    "U(D,1)=2",
+    "U(D,2)=4"
+  ],
+  "false_auxiliary_lemmas": [
+    "unconditional heavy atom of strength D^(-1+eta)",
+    "unconditional epsilon-n pair-collision count"
+  ],
   "revision_date": "2026-10-14"
 }
