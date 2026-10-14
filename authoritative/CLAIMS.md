@@ -1,4 +1,4 @@
-# Claims after P001C-S001 — strict scope
+# Claims after P001C-S002 — strict scope
 
 | ID | Proposition | Honest status |
 |---|---|---|
@@ -13,4 +13,9 @@
 | P001C-C008 | 2026 Ahmadi–Norouzi triangular tensor result establishes D-exponent saving for U(D,n) | **FALSE attribution**; binary-set families, polynomial-in-n prefactor only |
 | P001C-C009 | One of the S001 routes proves a non-recycled mechanism giving D^(-epsilon n) rank savings | **UNPROVED; NONE FOUND** |
 
-0 claimed novel theorems; 0 uniform improvements; 0 formal proofs; 0 papers; novelty UNCLEARED. Mathematical arguments and explicit auxiliary counterexamples are in sessions/S001/RESEARCH.md. S002 is ONLY a future single decision gate.
+0 claimed novel theorems; 0 uniform improvements; 0 formal proofs; 0 papers; novelty UNCLEARED. Mathematical arguments and explicit auxiliary counterexamples are in sessions/S001/RESEARCH.md. S002 completed with NO decision; RETURN_PARENT / PAUSE; no child S003.
+
+| P001C-C010 | Every sunflower-free A, |A|=m>=3, has max coordinate atom >= (m-1)(m-2)/(3 n m^2) | **ELEMENTARY VERIFIED first-moment inequality; NOT CLAIMED NOVEL; insufficient for n-uniform delta** |
+| P001C-C011 | Near-extremal auxiliary L(16,2,5/8,7/12) is proved and independent | **UNPROVED and currently reformulation of target** |
+| P001C-C012 | Balanced full-cube XY/YZ/ZX character modes all support exactly 2n/3 per variable (3|n) | **VERIFIED TERM-WISE obstruction only; NOT restricted-slice-rank lower bound** |
+| P001C-C013 | Hegedus 2018 Thm 1.7 proves alphabet-independent exponential C^n | **FALSE attribution; factorial-in-n prior-art bound** |

@@ -8,8 +8,8 @@ class GovernanceTests(unittest.TestCase):
   s=json.loads((R/"authoritative/STATE.json").read_text())
   self.assertFalse(s["headline_proved"]);self.assertFalse(s["new_uniform_exponent_improvement"]);self.assertEqual(s["new_theorems"],0)
  def test_future_only(self):
-  self.assertIn("P001C-S002",(R/"sessions/NEXT_SESSION.md").read_text())
-  self.assertIn("RETURN_PARENT",(R/"sessions/NEXT_SESSION.md").read_text())
+  self.assertIn("SUN-PARENT-S006",(R/"sessions/NEXT_SESSION.md").read_text())
+  self.assertIn("PAUSED",(R/"sessions/NEXT_SESSION.md").read_text())
  def test_binary_cube_no_sunflower(self):
   for n in (1,2,3,4):
    A=list(itertools.product((0,1),repeat=n))
@@ -30,3 +30,21 @@ class GovernanceTests(unittest.TestCase):
    S=set(subset)
    self.assertTrue(any(z and set(t)<=S for z,t in zip(bad,tri)))
 if __name__=="__main__":unittest.main()
+
+class S002Tests(unittest.TestCase):
+ def test_binary_decision(self):
+  s=json.loads((R/"authoritative/STATE.json").read_text())
+  self.assertEqual(s["stage"],"RETURN_PARENT_PAUSE_NO_D_EXPONENT_MECHANISM")
+  self.assertFalse(s["child_S003_queued"])
+ def test_exact_collision_count(self):
+  from fractions import Fraction
+  A=[(0,0,0),(0,0,1),(1,1,0),(1,2,2),(2,1,2),(2,2,1)]
+  N=len(A);n=3
+  atom=max(Fraction(sum(x[i]==a for x in A),N) for i in range(n) for a in range(3))
+  assert atom>=Fraction((N-1)*(N-2),3*n*N*N)
+  assert n>=Fraction(3*3*(N-1)*(N-2),3*(3-1)*N*N)
+ def test_balanced_full_cube_mode_support(self):
+  for t in (1,2,3):
+   roles=["XY"]*t+["YZ"]*t+["ZX"]*t
+   for v in "XYZ":
+    self.assertEqual(sum(v in role for role in roles),2*t)
