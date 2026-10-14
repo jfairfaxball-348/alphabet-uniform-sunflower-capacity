@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "session": "P001C-S002",
+  "date": "2026-10-14",
+  "owner_invoked": true,
+  "entry_main": "519d70b20162e219f628b90d2cf3de4c62d9a209",
+  "entry_tree": "d6bc21352a4fdb6f361f7e7c26a00203508dc648",
+  "entry_parent_main": "8212235af310bc2b1a912d05332f184282d0d6eb",
+  "s001_merged_pr": 2,
+  "s001_pr_ci_success": 38582946394,
+  "s001_main_push_ci_success": 38583139330,
+  "decision": "NO",
+  "stage": "RETURN_PARENT_PAUSE_NO_D_EXPONENT_MECHANISM",
+  "new_uniform_exponent_improvement": false,
+  "proposed_auxiliary_lemma": "UNPROVED_NOT_INDEPENDENT",
+  "new_claimed_theorems": 0,
+  "new_child_session_queued": false,
+  "next_owner_separate_session": "SUN-PARENT-S006",
+  "novelty": "UNCLEARED",
+  "formalisation": "NOT_STARTED",
+  "publication": "NOT_STARTED",
+  "source_addendum": "Hegedus arXiv:1804.10050v2 Theorem 1.7 factorial n bound"
+}

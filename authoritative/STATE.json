@@ -6,9 +6,9 @@
   "parent": "jfairfaxball-348/sunflower-structures-programme",
   "permanent_headline": "Erdős–Rado Sunflower Conjecture",
   "admin_session_completed": "P001C-S000",
-  "last_mathematics_session": "P001C-S001",
-  "stage": "S001_COMPLETED_NO_BOUND_IMPROVEMENT_S002_BINARY_KILL_GATE",
-  "next_session": "P001C-S002",
+  "last_mathematics_session": "P001C-S002",
+  "stage": "RETURN_PARENT_PAUSE_NO_D_EXPONENT_MECHANISM",
+  "next_session": "SUN-PARENT-S006",
   "next_executed": false,
   "owner_must_invoke_separate_project": true,
   "known_exponent": "2/3",
@@ -27,5 +27,11 @@
     "unconditional heavy atom of strength D^(-1+eta)",
     "unconditional epsilon-n pair-collision count"
   ],
-  "revision_date": "2026-10-14"
+  "revision_date": "2026-10-14",
+  "decision": "NO",
+  "child_sessions_paused": true,
+  "child_S003_queued": false,
+  "verified_marginal_counting": "ELEMENTARY_NOT_NOVEL",
+  "hypothetical_near_extremal_lemma": "UNPROVED_NONINDEPENDENT",
+  "source_audit_addendum": "Hegedus_2018_Theorem_1_7_nonexponential"
 }
