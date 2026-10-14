@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "project": "P001C",
+  "repo": "jfairfaxball-348/alphabet-uniform-sunflower-capacity",
+  "repository_id": 1419073216,
+  "parent": "jfairfaxball-348/sunflower-structures-programme",
+  "permanent_headline": "Erdős–Rado Sunflower Conjecture",
+  "admin_session_completed": "P001C-S000",
+  "last_mathematics_session": null,
+  "stage": "BOOTSTRAPPED_NOT_RESEARCH_EXECUTED_PENDING_PARENT_S005_VERIFICATION",
+  "next_session": "P001C-S001",
+  "next_executed": false,
+  "owner_must_invoke_separate_project": true,
+  "known_exponent": "2/3",
+  "new_uniform_exponent_improvement": false,
+  "D_independent_base_proved": false,
+  "headline_proved": false,
+  "novelty_status": "UNCLEARED",
+  "formal_status": "NOT_STARTED",
+  "publication_status": "NOT_STARTED",
+  "new_theorems": 0,
+  "revision_date": "2026-10-14"
+}
